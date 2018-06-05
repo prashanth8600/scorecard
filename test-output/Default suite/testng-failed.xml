@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.arm.scenarios.PPApp.PDMActionMenuTest">
+        <methods>
+          <include name="view_sales_bom_and_compare"/>
+          <include name="create_new_revision"/>
+          <include name="add_revision_to_eBOM"/>
+          <include name="remove_revision_from_eBOM"/>
+          <include name="save_eBOM"/>
+          <include name="maintain_sales_status_of_bundle_bom"/>
+          <include name="setup"/>
+          <include name="maintain_lifecycle_and_sales_status"/>
+        </methods>
+      </class> <!-- com.arm.scenarios.PPApp.PDMActionMenuTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
